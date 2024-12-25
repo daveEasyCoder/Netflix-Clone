@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix Clone</title>
+     <link rel="stylesheet" href="neflix.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+<body>
+
+   <div class="header">
+        <div class="nav-container">
+            <img class="logo" src="Netflix Icon/logo.png">
+             <nav class="navbar-middle js-navbar-middle">
+                <ul>
+                    <li><a class="middle-link" href="#">HOME</a></li>
+                    <li><a class="middle-link" href="#">MOVIES</a></li>
+                    <li><a class="middle-link" href="#">TV SHOWS</a></li>
+                    <li style="padding: 10px 0 10px 0;"><a class="middle-link" href="#">PAGE <span class="drop-down-icon"></span></a>
+                        <div class="drop-down">
+                            <ul>
+                                <li> <a class="top-link" href="#">ABOUT US</a></li>
+                                <li> <a class="top-link" href="#">FAQ</a></li>
+                                <li> <a class="top-link" href="#">PRIVACY</a></li>
+                                <li> <a class="top-link" href="#">MEMBERSHIP</a>
+                                    <div class="membership-container">
+                                        <ul>
+                                            <li><a href="#">PLATINUM MEMBERSHIP</a></li>
+                                            <li><a href="#">GOLD MEMBERSHIP</a></li>
+                                            <li><a href="#">BRONZE MEMBERSHIP</a></li>
+                                        </ul>
+                                     </div>
+                                </li>
+                            </ul>
+                         </div>
+                    </li>
+                </ul>
+     
+             </nav>
+              <div class="navbar-left-icon">
+                  <div class="search-container">
+                     <img class="left-image1" src="Netflix Icon/search_icon.svg">
+                     <div class="input-container">
+                        <img src="back_arrow_icon.png">
+                        <input type="text" placeholder="type here to search">
+                     </div>
+                  </div>
+                <div class="notification-container">
+                     <img class="left-image3" src="Netflix Icon/notification.png">
+                     <div class="notification js-notification">
+                         <div class="row-1">
+                           <img src="Netflix Icon/thumb-1.jpg">
+                           <div class="right-col">
+                              <h4>Captain Marvel</h4>
+                              <p>just now</p>
+                           </div>
+                         </div>
+                         <div class="row-1">
+                           <img src="Netflix Icon/thumb-2.jpg">
+                           <div class="right-col">
+                              <h4>Dora and the lost</h4>
+                              <p>30 minute ago</p>
+                           </div>
+                         </div>
+                         <div class="row-1">
+                           <img src="Netflix Icon/thumb-3.jpg">
+                           <div class="right-col">
+                              <h4>Mulan</h4>
+                              <p>2 hr ago</p>
+                           </div>
+                         </div>
+                     </div>
+                </div>
+                   
+                   <img class="left-image2" src="Netflix Icon/user.png">
+                   <div class="mobile-close js-mobile-close">
+                     <img src="Netflix Icon/hamburger-menu.png" class="icons">
+                     <p class="close-menu">X</p>
+                   </div>
+
+              </div>
+        </div>
+      </div>
+     <!-- hero section video popup Area -->
+      <div class="video-container active">
+         <video class="video" src="" controls></video>
+         <span class="hero-video-close">X</span>
+      </div>
+
+      <button class="hero-next js-hero-next">&#10095</button>
+      <button class="hero-prev js-hero-prev">&#10094 </button>
+      <div class="hero-container js-hero-container">
+
+      </div>
+       
+   
+      <main>
+      <!-- Popular on neflix section -->   
+
+      <div class="row">
+        <div class="movies-titles">
+             <h2>Popular on Netflix</h2>
+        </div>
+        <div class="backBtn">&#10094</div>
+        <div class="nextBtn">&#10095</div>
+         <div class="top-pic row-wrapper js-top">
+
+         </div>
+      </div>
+
+      <div class="row">
+        <div class="movies-titles">
+             <h2>Top pic for you</h2>
+        </div>
+            <div class="backBtn">&#10094</div>
+            <div class="nextBtn">&#10095</div>
+         <div class="top-pic row-wrapper">
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/a1.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/a2.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/a3.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/a4.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/h2.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/h3.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/h4.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/top/h5.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+          
+      
+      <div class="column">
+            <div class="movies-titles">
+                <h2>Upcoming</h2>
+           </div>
+           <div class="flex-upcoming-container">
+            <div class="column-item-container js-column-item-container">
+            <!--     <div class="item">
+                    <img class="top-pic-thumb" src="Netflix Image/image43.jpeg">
+                        <div class="item-title">
+                            <div class="left-title">
+                                <p class="left-title-top">Avengers</p>
+                                <p class="left-title-bottom">12+ 2hr 24min</p>
+                                <button class="colums-btn"><span><img src="play.png"><span>Play Now</span></span></button>
+                            </div>
+                        </div>
+                    </div> -->
+           </div>
+           
+           <div class="upcoming-left-picture">
+              
+           </div>
+        </div>
+        
+      </div>
+
+      <!-- suggested sport section -->
+      <div class="row">
+        <div class="movies-titles">
+             <h2>Suggested Sports</h2>
+        </div>
+        <div class="backBtn">&#10094</div>
+        <div class="nextBtn">&#10095</div>
+         <div class="top-pic row-wrapper">
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/01.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/02.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/03.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/04.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/05.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/01.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/02.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/suggested/03.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Avengers</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+      <div class="middle-container">
+        <div class="middle-container-items">
+            <div class="left-middle-item">
+                <h1>Money Heist</h1>
+                 <div class="rating-section">
+                     <img src="Netflix Icon/rating.png">
+                     <span>7.8(mdby)</span>
+                 </div>
+                 <div class="rating-container timing">
+                      <button>12+</button>
+                     <span>2hr 43min</span>
+                 </div>
+                 <p class="about-story">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis necessitatibus sed ad vitae aliquid labore dolorem distinctio eaque iure sit mollitia corrupti earum, totam nostrum nihil magni esse provident.  totam nostrum nihil magni esse provident.</p>
+                 <div class="red-button-container">
+                    <button class="play-now-btn">
+                       <img src="Netflix Icon/play.png">
+                       <span>PLAY NOW</span>
+                    </button>
+                    <button class="more-detail-btn">
+                       More details
+                    </button>
+               </div>
+            </div>
+
+            <div class="right-middle-item">
+                <img src="Netflix Image/money.webp">
+            </div>
+        </div>   
+      </div>
+
+      <!-- trending section -->
+
+      <div class="row">
+        <div class="movies-titles">
+             <h2>Trending</h2>
+        </div>
+        <div class="backBtn">&#10094</div>
+        <div class="nextBtn">&#10095</div>
+         <div class="top-pic row-wrapper">
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/bg-65.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">65</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/bg-little-mermaid.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Little Mermaid</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/bg-the-black-demon.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Black Demon</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/bg-the-covenant.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">The Covenant</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/bg-the-tank.jpeg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">The Tank</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/madame-web.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Madame Web</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image//trending/lift-rules.jpg">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Lift Rules</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                    </div>
+               </div>
+           </div>
+           <div class="item">
+              <img class="top-pic-thumb" src="Netflix Image/trending/robert-rodregoz.webp">
+               <div class="item-title">
+                   <div class="left-title">
+                       <p class="left-title-top">Robert Rodregoz</p>
+                       <p class="left-title-bottom">12+ 2hr 24min</p>
+                       <button><span><img src="Netflix Icon/play.png"><span>Play Now</span></span></button>
+                   </div>
+                    <div class="right-title-image">
+                        <div><img src="Netflix Icon/heart.png"></div>
+                         <div><img src="Netflix Icon/heart.png"></div>
+                         <div>+</div>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </main>
+    
+      <footer>
+          <div class="footer-content">
+            <div>
+                <p>Open Source</p>
+                <p class="footer-left-text">NETFLIX OPEN SOURCE</p>
+                <P class="footer-left-text">GET IN ON THE FUN JOIN US</P>
+            </div>
+            <div>
+                <p>Stay in Touch</p>
+                <p class="footer-left-text">OUR TECH BLOG OPEN SOURCE</p>
+                <P class="footer-left-text">@NetflixOSS</P>
+                <P class="footer-left-text">SlideShare</P>
+                <P class="footer-left-text">NETFLIX MEETUP</P>
+            </div>
+            <div class="right-footer">
+                <div class="right-footer-logo">
+                    <img src="Netflix Icon/logo.png" alt="">
+                    <div class="oss">OSS</div>
+                </div>
+                <p class="copy-right">@2012-2016 NETFLIX,INC ALL RIGHTS RESERVED</p>
+            </div>
+          </div>
+      </footer>
+
+
+
+      <script src="netflix.js"></script>
+</body>
+</html>
