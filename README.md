@@ -30,6 +30,17 @@ Follow these steps to get a local copy up and running:
 ```bash
 cd Netflix-Clone
 ```
+2. Navigate to the project directory:
+```bash
+netflix-clone/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── assets/
+    └── images/
+```
 netflix-clone/
 |-- index.html
 |-- css/
