@@ -31,12 +31,6 @@ Follow these steps to get a local copy up and running:
 cd Netflix-Clone
 3. Open the index.html file in your browser to view the project:
 ```bash
-netflix-clone/
-|-- index.html
-|-- css/
-|   |-- netflix.css
-|-- js/
-|   |-- netflix.js
-|-- Netflix image/
+
 
 ![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
