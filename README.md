@@ -29,7 +29,7 @@ Follow these steps to get a local copy up and running:
 2. Navigate to the project directory:
 ```bash
 cd Netflix-Clone
-
+```
 
 
 ![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
