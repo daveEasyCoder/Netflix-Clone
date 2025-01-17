@@ -16,7 +16,7 @@ A responsive Netflix clone built using HTML, CSS, and JavaScript. This project r
 
 ## Demo
 
-You can view a live demo of the project here: [Live Demo](github.com/daveEasyCoder/Netflix-Clone/)  
+You can view a live demo of the project here: [Live Demo](https://daveeasycoder.github.io/Netflix-Clone/)  
 
 ## Installation
 
