@@ -32,22 +32,15 @@ cd Netflix-Clone
 ```
 2. Navigate to the project directory:
 ```bash
-netflix-clone/
+Netflix-Clone/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── assets/
-    └── images/
+├── Netflix-Icon/
+├── Netflix-image/
+├── Netflix-trailers/
+├── netflix.css
+├── netflix.js
+└── index.css
 ```
-netflix-clone/
-|-- index.html
-|-- css/
-|   |-- style.css
-|-- js/
-|   |-- script.js
-|-- assets/
-|   |-- images/
+
 
 ![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
