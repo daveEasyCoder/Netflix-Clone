@@ -40,7 +40,7 @@ Netflix-Clone/
 ├── netflix.js
 └── index.html
 ```
-![Netflix Clone Preview](#)
-https://github.com/user-attachments/assets/d292a936-9437-461f-9d40-ba91db261ce9
+![Netflix Clone Preview](https://github.com/user-attachments/assets/d292a936-9437-461f-9d40-ba91db261ce9)
+
 # Screenshoot
 ![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
