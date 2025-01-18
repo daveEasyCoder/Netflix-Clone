@@ -41,7 +41,6 @@ Netflix-Clone/
 └── index.html
 ```
 https://github.com/user-attachments/assets/9a24aa27-015f-4e04-b5f9-1ed97cc921da
-# App demo
-![App Demo](demo.gif)
+
 # Screenshoot
 ![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
