@@ -1,7 +1,10 @@
 # Netflix Clone
 
 A responsive Netflix clone built using HTML, CSS, and JavaScript. This project replicates the look and feel of the Netflix homepage, offering a sleek user interface and interactive features.
+https://github.com/user-attachments/assets/9a24aa27-015f-4e04-b5f9-1ed97cc921da
 
+# Screenshoot
+![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
 ## Features
 
 - **Responsive Design**: Adapts seamlessly to different screen sizes.
@@ -40,7 +43,4 @@ Netflix-Clone/
 ├── netflix.js
 └── index.html
 ```
-https://github.com/user-attachments/assets/9a24aa27-015f-4e04-b5f9-1ed97cc921da
 
-# Screenshoot
-![Hero Section](https://github.com/daveEasyCoder/Netflix-Clone/blob/5416645a01dfcbec7cb6e9f8d16967c566abc995/netfl.png)
